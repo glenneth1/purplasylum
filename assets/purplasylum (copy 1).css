@@ -1,0 +1,183 @@
+/* General Body Styling */
+body {
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+  background-color: #292d3e; /* Dark theme background */
+  background-image: url('/assets/texture.png'); /* Added subtle paper texture background */
+  background-repeat: repeat;
+  color: #d0d0d0; /* Light gray text for readability */
+  font-family: 'Courier New', Courier, monospace; /* Typewriter look for retro aesthetic */
+}
+
+/* Content, Header, Footer, Main Styling */
+.content, header, footer, main {
+  max-width: 90%;
+  padding: 0 5% 20px;
+}
+
+header {
+  text-align: center;
+  margin-bottom: 20px;
+  font-family: 'Georgia', serif;
+  letter-spacing: 0.05em; /* Slight spacing for classic look */
+}
+
+footer {
+  text-align: center;
+  margin-top: 20px;
+  font-style: italic;
+}
+
+/* Navigation Links */
+.nav-links {
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.nav-links a {
+  font-family: 'Courier New', Courier, monospace;
+  color: #82aaff;
+  text-decoration: none;
+  margin: 0 10px;
+}
+
+.nav-links a:hover {
+  text-decoration: underline;
+}
+
+/* List and Link Styling */
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 20px;
+}
+
+a {
+  text-decoration: none;
+  color: #82aaff;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Headings Styling */
+h1, h2, h3, h4, h5, h6 {
+  color: #c792ea;
+  font-family: 'Georgia', serif;
+  text-align: center;
+}
+
+/* Post Container Styling */
+.post-container {
+  background-color: #1e1e2e;
+  padding: 20px;
+  border-radius: 5px;
+  border: 2px solid #c792ea;
+  margin-bottom: 20px;
+}
+
+/* Post Header Styling */
+.post-header h2 {
+  text-decoration: underline;
+}
+
+/* Post Meta Information */
+.post-meta {
+  color: #6272a4;
+  font-size: 0.9em;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* Vinyl Sleeve Style Content */
+.vinyl-style {
+  font-family: 'Courier New', Courier, monospace;
+  background-color: #1e1e2e;
+  padding: 20px;
+  border: 2px solid #c792ea;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  line-height: 1.6;
+}
+
+/* Article Styling */
+article {
+  background-color: #282a36;
+  padding: 15px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+article header {
+  margin-bottom: 10px;
+}
+
+/* Date Styling */
+.date {
+  color: #6272a4;
+  font-size: 0.9em;
+}
+
+/* Mobile Device Readability */
+@media screen and (max-width: 767px) {
+  .content, header, footer, main {
+    max-width: 100%;
+    padding: 0 10px;
+  }
+
+  .nav-links {
+    font-size: 0.9em;
+  }
+
+  .logo {
+    max-width: 200px;
+  }
+
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+    height: auto;
+    padding-bottom: 10px;
+  }
+
+  .column {
+    flex-basis: 100%;
+    margin-bottom: 20px;
+  }
+}
+
+/* Additional Craftering Styling */
+.craftering {
+  margin: auto;
+  width: 50%;
+  text-align: center;
+}
+
+.webring-text {
+  text-align: center;
+  margin-bottom: 20px;
+  color: white;
+}
+
+.craftering a, .webring-text a {
+  color: #dddddd;
+}
+
+.back-to-home {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.back-to-home a {
+  color: #82aaff;
+  text-decoration: none;
+}
+
+.back-to-home a:hover {
+  text-decoration: underline;
+}

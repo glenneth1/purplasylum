@@ -1,0 +1,23 @@
+title: Halsey
+date: 2024-11-03 12:00
+tags: new, releases, Lykke Li
+author: Glenn Thompson
+---
+
+# Halsey
+
+## The Great Impersonator - Released 25-OCT-2024 on Columbia Records
+
+Halsey's fifth album, The Great Impersonator, is an ambitious exploration of the pop icons that have influenced music from the 1970s onwards. With this project, Halsey takes on the personas of musical legends like Joni Mitchell, David Bowie, Fiona Apple, and many more, paying homage through both the album's sound and an accompanying series of visually striking photoshoots. Created during a tumultuous period in Halsey's life—dealing with postpartum depression, lupus, and T-cell lymphoproliferative disorder—the album attempts to reflect the confusion and disassociation they felt, like a professional Halsey impersonator rather than themselves.
+
+In theory, it's an exciting concept. The idea of embodying and channeling the voices of groundbreaking artists to express one's own emotional journey offers a lot of potential. However, in practice, The Great Impersonator struggles to make a cohesive statement. Though the influences are apparent on the surface, the execution often feels hollow, and the distinctiveness of each homage fails to capture the magic of the original artists. The production, helmed by Michael Uzowuru, Alex G, and vocal producer Caleb Laven—their first collaboration since Frank Ocean's Blonde—is polished but lacks a sense of identity. It's an album that wants you to feel as if you're witnessing something monumental, but instead comes across as a patchwork of influences that don't quite connect.
+
+The concept of impersonation is carried out most explicitly in tracks like "Darwinism," which aims to channel David Bowie, and "Dog Years," inspired by PJ Harvey. Unfortunately, the attempt to capture the essence of these legendary musicians is diluted, with lyrics that at times feel clichéd or even cringeworthy. The Bowie-inspired track, for example, features a pun on blood types that falls flat: "I’m trying to B positive but O it’s really hard." The reverence for these influences is apparent, but the resulting product doesn’t do them justice.
+
+That said, there are still standout moments. "Lonely Is the Muse" is sharp and witty, taking aim at the diminished role of the muse while weaving in Halsey's personal reflections on past relationships. The chorus of "Lonely Is the Muse" reflects both a sense of empowerment and fragility, with a biting, self-aware commentary on being an artist reduced to inspiration for others. The track "The End," a Joni Mitchell homage, offers one of the album's most poignant moments as Halsey sings with a haunting vulnerability about avoiding their own painful reality by escaping into an apocalyptic fantasy.
+
+The Great Impersonator reaches for greatness by embracing multiple eras and genres, but the results are mixed. While the album was crafted as an exploration of Halsey's broad creative range, it ultimately feels scattered, as if the artist is searching for an identity among the ghosts of musical legends rather than forging their own path. The grandiosity of the visual elements and the heavy reliance on references create a disconnect that leaves listeners struggling to understand who Halsey really is beyond these adopted personas. This results in an album that, while often intriguing, lacks the cohesion and depth needed to truly make an impact.
+
+Thematically, The Great Impersonator wants to showcase Halsey as a singular, tortured artist, but the approach often feels disjointed. It's not that Halsey can't execute grand concepts—they've proven their ability to do so with previous releases—but this time, the focus on embodying musical icons blurs the lines between tribute and parody. For an album that promises a unique vision of modern pop through the lens of iconic predecessors, The Great Impersonator struggles to carve out a distinctive space, often leaning too heavily on nostalgia rather than building something new from its influences.
+
+There are undeniably moments where Halsey captures an essence of raw emotionality—tracks like "Ego" effectively channel a 2000s pop-rock vibe reminiscent of movie soundtracks for coming-of-age dramas. However, even these moments are weighed down by what feels like excessive indulgence in personal angst. It's almost as if Halsey is too caught up in proving themselves to be edgy, dark, and tortured, losing sight of the creative spark that could have tied all these disparate elements together. Despite the potential in its conceptual framing, The Great Impersonator ultimately feels like an exercise in impersonation that doesn't quite hit the mark, leaving listeners wanting more than just borrowed nostalgia and genre-switching.
