@@ -6,7 +6,7 @@ author: Glenn Thompson
 
 # Porridge Radio
 
-## Clouds In The Sky They Will Always Be There For Me
+## Clouds In The Sky They Will Always Be There For Me - Released 18-OCT-2024 on Secretly Canadian
 
 Porridge Radio's latest album, *Clouds In The Sky They Will Always Be There For Me*, released on October 18, 2024, through Secretly Canadian, is a powerful exploration of human vulnerability, catharsis, and emotional turbulence. Dana Margolin leads listeners through the wreckage of burnout, heartbreak, and the pressures of a rapidly shifting reality, offering a collection of songs that feels raw, invincible, and unabashedly honest. The album is full of sharp contrasts: from fragile quiet to explosive intensity, from vulnerability to defiance. Margolin's visceral delivery and the band's forceful dynamics create a soundscape that feels like repeatedly touching an exposed nerve—painful, but charged with a peculiar energy.
 

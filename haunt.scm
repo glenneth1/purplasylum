@@ -177,13 +177,14 @@
        (header
         (h1 ,(site-title site)))
        (main ,content)
-       (footer
-        (div (@ (class "webring-text"))
-             (p "I am part of the " (a (@ (href "https://systemcrafters.net") (target "_blank")) "System Crafters") " webring:"))
-        (div (@ (class "craftering"))
-             (a (@ (href "https://craftering.systemcrafters.net/@glenneth/previous")) "←")
-             (a (@ (href "https://craftering.systemcrafters.net/")) "craftering")
-             (a (@ (href "https://craftering.systemcrafters.net/@glenneth/next")) "→")))))))
+       ;; (footer
+       ;;  (div (@ (class "webring-text"))
+       ;;       (p "I am part of the " (a (@ (href "https://systemcrafters.net") (target "_blank")) "System Crafters") " webring:"))
+       ;;  (div (@ (class "craftering"))
+       ;;       (a (@ (href "https://craftering.systemcrafters.net/@glenneth/previous")) "←")
+       ;;       (a (@ (href "https://craftering.systemcrafters.net/")) "craftering")
+       ;;       (a (@ (href "https://craftering.systemcrafters.net/@glenneth/next")) "→")))))
+       ))))
 
 ;; Define the post-template function
 (define (post-template post)
