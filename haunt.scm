@@ -175,7 +175,7 @@
        (title ,page-title))
       (body
        (header
-        (h1 ,(site-title site)))
+        (h1 (a (@ (href "/index.html")) ,(site-title site))))
        (main ,content)
        ;; (footer
        ;;  (div (@ (class "webring-text"))
