@@ -262,22 +262,35 @@ article header {
 
 /* Mobile Device Readability */
 @media screen and (max-width: 767px) {
-  .content, header, footer, main {
+  body {
+    display: block;
+    padding: 0;
+  }
+
+  .content, footer, main {
     max-width: 100%;
-    padding: 0 10px;
+    padding: 10px;
+  }
+
+  header {
+    width: 100%;
+    position: relative;
+    text-align: center;
+    background-color: #292d3e;
+    padding: 1em 0;
+    margin: 0;
+    border-bottom: 2px solid #c792ea;
+  }
+
+  header h1 {
+    margin: 0;
   }
 
   .post-container {
     min-width: 300px;
     width: 100%;
     padding: 1em;
-  }
-
-  header {
-    width: 100%;
-    margin-bottom: 1em;
-    padding: 0.5em;
-    text-align: center;
+    margin-top: 1em;
   }
 
   h1 { font-size: 1.8em; }
