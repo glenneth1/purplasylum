@@ -168,7 +168,6 @@ h6 { font-size: 1em; }
   transform: translateY(-2px);
   box-shadow: 0 4px 20px rgba(199, 146, 234, 0.1);
 }
-}
 
 .metadata-grid {
   display: grid;
@@ -268,6 +267,22 @@ article header {
     padding: 0 10px;
   }
 
+  .post-container {
+    min-width: 300px;
+    width: 100%;
+    padding: 1em;
+  }
+
+  header {
+    width: 100%;
+    margin-bottom: 1em;
+    padding: 0.5em;
+    text-align: center;
+  }
+
+  h1 { font-size: 1.8em; }
+  h2 { font-size: 1.8em; }
+
   .nav-links {
     font-size: 0.9em;
   }
@@ -288,9 +303,8 @@ article header {
     margin-bottom: 20px;
   }
 
-  /* Improved Layout for Mobile */
-  .post-container {
-    padding: 15px;
+  .vinyl-style {
+    padding: 1em;
   }
 
   header a {
