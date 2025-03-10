@@ -34,6 +34,28 @@ header a:hover {
   text-decoration: underline;
 }
 
+.site-nav {
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.rss-link {
+  display: inline-block;
+  padding: 5px 15px;
+  background-color: #1e1e2e;
+  border: 2px solid #c792ea;
+  border-radius: 5px;
+  color: #82aaff;
+  font-family: 'Courier New', Courier, monospace;
+  transition: all 0.3s ease;
+}
+
+.rss-link:hover {
+  background-color: #c792ea;
+  color: #1e1e2e;
+  text-decoration: none;
+}
+
 footer {
   text-align: center;
   margin-top: 20px;

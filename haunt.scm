@@ -70,18 +70,50 @@
 ;; Define the post-template function
 (define (post-template post)
   `(div (@ (class "post-container"))
-        ;; Post title and metadata
-        (div (@ (class "post-header"))
-             (h2 ,(post-title post))
-             (p (@ (class "post-meta"))
-                "Posted on " ,(format-date (post-date post))
-                " by " ,(assq-ref (post-metadata post) 'author)))
+    (div (@ (class "post-layout"))
+         ;; Main content column
+         (div (@ (class "post-main"))
+              ;; Post title and metadata
+              (div (@ (class "post-header"))
+                   (h2 ,(post-title post))
+                   (p (@ (class "post-meta"))
+                      "Posted on " ,(format-date (post-date post))
+                      " by " ,(assq-ref (post-metadata post) 'author)))
 
-        ;; Post content
-        (div (@ (class "content vinyl-style")) ,@(post-sxml post))
+              ;; Post content
+              (div (@ (class "content vinyl-style")) ,@(post-sxml post))
 
-        ;; Back to home link
-        (p (@ (class "back-to-home")) (a (@ (href "/index.html")) "Back to Home"))))
+              ;; Back to home link
+              (p (@ (class "back-to-home")) (a (@ (href "/index.html")) "Back to Home")))
+
+         ;; Metadata sidebar
+         (div (@ (class "post-sidebar"))
+              (div (@ (class "metadata-card"))
+                   (h3 "Album Info")
+                   (div (@ (class "metadata-grid"))
+                        (div (@ (class "metadata-item"))
+                             (span (@ (class "metadata-label")) "Release Date")
+                             (span (@ (class "metadata-value")) ,(let ((release-date (string-match "Released ([0-9]{2}-[A-Z]{3}-[0-9]{4})" (post-ref post 'content))))
+                                                                   (if release-date
+                                                                       (match:substring release-date 1)
+                                                                       "N/A")))
+                             (div (@ (class "metadata-item"))
+                                  (span (@ (class "metadata-label")) "Label")
+                                  (span (@ (class "metadata-value")) ,(let ((label (string-match "on ([^\n]+)" (post-ref post 'content))))
+                                                                        (if label
+                                                                            (match:substring label 1)
+                                                                            "N/A")))
+                                  (div (@ (class "metadata-item"))
+                                       (span (@ (class "metadata-label")) "Genre")
+                                       (span (@ (class "metadata-value")) ,(string-join (assq-ref (post-metadata post) 'tags) ", ")))
+                                  (div (@ (class "metadata-item rating"))
+                                       (span (@ (class "metadata-label")) "Rating")
+                                       (div (@ (class "vinyl-rating"))
+                                            (div (@ (class "vinyl-disc")))
+                                            (div (@ (class "vinyl-disc")))
+                                            (div (@ (class "vinyl-disc")))
+                                            (div (@ (class "vinyl-disc")))
+                                            (div (@ (class "vinyl-disc")))))))))))))
 
 ;; Define the custom theme with a consistent layout for index
 (define my-theme
@@ -91,17 +123,17 @@
          #:collection-template
          (lambda (site title posts prefix)
            `(div (@ (class "content"))
-                 (h2 ,title)
-                 (ul
-                  ,@(map (lambda (post)
-                           `(li
-                             (article
-                              (header
-                               (h3 (a (@ (href ,(post-url post))) ,(post-title post))))
-                              (p (@ (class "date")) ,(format-date (post-date post)))
-                              (div (@ (class "post-summary")) ,(post-summary post))
-                              (p (a (@ (href ,(post-url post))) "Read more...")))))
-                         posts))))))
+             (h2 ,title)
+             (ul
+              ,@(map (lambda (post)
+                       `(li
+                         (article
+                          (header
+                           (h3 (a (@ (href ,(post-url post))) ,(post-title post))))
+                          (p (@ (class "date")) ,(format-date (post-date post)))
+                          (div (@ (class "post-summary")) ,(post-summary post))
+                          (p (a (@ (href ,(post-url post))) "Read more...")))))
+                     posts))))))
 
 ;; Site configuration
 (site #:title "Purplasylum"
@@ -116,4 +148,4 @@
                         #:collections `(("Recent Posts" "posts.html" ,posts/reverse-chronological))
                         #:prefix "posts")
                   (static-directory "images")
-                  (static-directory "assets")))  ; Ensure assets directory is included
+                  (static-directory "assets")))

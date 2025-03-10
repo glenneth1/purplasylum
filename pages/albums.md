@@ -17,3 +17,5 @@ author: Glenn Thompson
 [Kim Deal - Nobody Loves You More](dealmore.html) - Nobody Loves You More, is a masterful evolution of her sound, blending personal loss, creative exploration, and timeless alt-rock brilliance.
 
 [The Weather Station - Humanhood](weatherstation.html) - A bold exploration of human experience, weaving sophisticated pop with avant-garde sensibilities while finding beauty in life's contrasts.
+
+[bdrmm - microtonic](bdrmm-microtonic.html) - Hull's shoegaze innovators evolve into hypnotic electronic territories while keeping their emotional core intact.
