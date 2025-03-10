@@ -154,13 +154,6 @@ h4 { font-size: 1.5em; }
 h5 { font-size: 1.25em; }
 h6 { font-size: 1em; }
 
-/* Post Layout */
-.post-layout {
-  display: grid;
-  grid-template-columns: 1fr 300px;
-  gap: 2em;
-}
-
 /* Post Container Styling */
 .post-container {
   background-color: #1e1e2e;
@@ -175,30 +168,6 @@ h6 { font-size: 1em; }
   transform: translateY(-2px);
   box-shadow: 0 4px 20px rgba(199, 146, 234, 0.1);
 }
-
-/* Metadata Sidebar */
-.post-sidebar {
-  position: sticky;
-  top: 2em;
-  align-self: start;
-}
-
-.metadata-card {
-  background-color: #1e1e2e;
-  border: 2px solid #c792ea;
-  border-radius: 5px;
-  padding: 1.5em;
-  animation: slideIn 0.5s ease-out;
-}
-
-.metadata-card h3 {
-  margin-top: 0;
-  margin-bottom: 1em;
-  font-size: 1.3em;
-  color: #c792ea;
-  text-align: left;
-  border-bottom: 2px solid #c792ea;
-  padding-bottom: 0.5em;
 }
 
 .metadata-grid {
@@ -223,51 +192,7 @@ h6 { font-size: 1em; }
   color: #d0d0d0;
 }
 
-/* Vinyl Rating System */
-.vinyl-rating {
-  display: flex;
-  gap: 0.5em;
-  margin-top: 0.3em;
-}
 
-.vinyl-disc {
-  width: 30px;
-  height: 30px;
-  border-radius: 50%;
-  border: 2px solid #c792ea;
-  position: relative;
-  transition: all 0.3s ease;
-  cursor: pointer;
-}
-
-.vinyl-disc::before {
-  content: '';
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  width: 8px;
-  height: 8px;
-  background: #c792ea;
-  border-radius: 50%;
-  transform: translate(-50%, -50%);
-}
-
-.vinyl-disc::after {
-  content: '';
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  width: 16px;
-  height: 16px;
-  border: 1px solid #c792ea;
-  border-radius: 50%;
-  transform: translate(-50%, -50%);
-}
-
-.vinyl-disc:hover {
-  transform: rotate(45deg);
-  background-color: rgba(199, 146, 234, 0.1);
-}
 
 /* Responsive Design */
 @media screen and (max-width: 768px) {
