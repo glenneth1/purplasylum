@@ -8,8 +8,6 @@ author: Glenn Thompson
 
 ## November 2024
 
-
-
 - 01-Nov   | Beardfish         | Songs For Beating Hearts
 - 01-Nov   | Bilby             | Heavy Fines, Loss Of Licence
 - 01-Nov   | CHARLOT           | Lost Like Alice
@@ -84,10 +82,16 @@ author: Glenn Thompson
 - 07 Mar | Divorce | Drive to Goldenhammer | Gravity / Capitol
 - 07 Mar | The Cat Empire | Bird In Paradise
 - 07 Mar | Moreish Idols | All In The Game | Speedy Wunderground
+- 07 Mar | Clara Mann | Rift | state51
+- 07 Mar | Bob Mould | Here We Go Crazy | Rise
+- 07 Mar | Melin Melyn | Mill On The Hill
+- 07 Mar | Pale Blue Eyes | New Place | Broadcasting
+- 14 Mar | Courting | Lust For Life | Lower Third
 - 21 Mar | My Morning Jacket | is | ATO
 - 21 Mar | The Horrors | Night Life
 - 28 Mar | Lucy Dacus | Forever Is A Feeling | Matador
 - 28 Mar | Somebody's Child | When Youth Fades Away | Frenchkiss
+- 28 Mar | Girlpuppy | Sweetness | Captured Tracks
 - 28 Mar | Great-Grandpa | Patience, Moonbeam | Run For Cover
 - 28 Mar | Perfume Genius | Glory | Matador
 - 28 Mar | Sam Akpro | Evenfall | ANTI-
@@ -111,4 +115,7 @@ author: Glenn Thompson
 - 02 May | Press Club | To All the Ones that I Love | Cargo
 - 02 May | BLONDSHELL | If You Asked For A Picture | Partisan
 - 02 May | Eli Keszler | Eli Keszler | LUCKYME
+- 02 May | Car Seat Headrest | The Scholars | Rock Action
 - 09 May | Spacey Jane | If That Makes Sense | Concord
+- 09 May | Mark Pritchard & Thom Yorke | Tall Tales | Warp
+- 30 May | Matt Berninger | Get Sunk | Book /Concord
